@@ -170,6 +170,9 @@ figure {
   color: $brand-white;
   background: $brand-primary;
 }
+.counter {
+  z-index: 100;
+}
 
 .wedding-nav {
   position: absolute;
@@ -323,7 +326,6 @@ figure {
   float: left;
   position: relative;
 }
-
 .wedding-video {
   height: 450px;
   overflow: hidden;
