@@ -223,8 +223,14 @@
                     </div>
                   </div>
                   <div class="col-md-12 col-sm-12 text-center animate-box">
-                    <a
+                    <!-- <a
                       href="https://calendar.google.com/calendar/r/eventedit?text=Casamiento%20Iara%20y%20Gast%C3%B3n&details=Los%20esperamos%21&location=Deck%2039%2C%20Chilavert%20601%2C%20B1621%20Benavidez%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina&dates=20220227T170000/20220228T040000"
+                      target="_blank noreferer"
+                      class="btn btn-default btn-primary btn-save-date"
+                      >Save the date</a
+                    > -->
+                    <a
+                      href="https://www.google.com/calendar/render?action=TEMPLATE&text=Casamiento+Iara+y+Gast%C3%B3n&dates=20220227T170000/20220228T0300&details=Los+esperamos%21&location=Deck%2039%2C%20Chilavert%20601%2C%20B1621%20Benavidez%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argenti&sprop=iaraygasti.com.ar"
                       target="_blank noreferer"
                       class="btn btn-default btn-primary btn-save-date"
                       >Save the date</a
@@ -415,6 +421,7 @@
                   <div class="form-group">
                     <label for="name" class="sr-only">Nombre</label>
                     <input
+                      required
                       type="text"
                       class="form-control"
                       id="name"
@@ -427,6 +434,7 @@
                   <div class="form-group">
                     <label for="lastname" class="sr-only">Apellido</label>
                     <input
+                      required
                       type="text"
                       class="form-control"
                       id="email"
@@ -438,12 +446,13 @@
                 <div class="col-md-4 col-sm-4">
                   <div class="form-group">
                     <label for="menu" class="sr-only">Menú</label>
-                    <select id="menu" name="Menu" class="form-control">
-                      <option selected>Menú</option>
-                      <option>Adulto</option>
-                      <option>Celiaco</option>
-                      <option>Vegetariano</option>
-                      <option>Vegano</option>
+                    <select required id="menu" name="Menu" class="form-control">
+                      <option value="">Menú</option>
+                      <option value="Adulto">Adulto</option>
+                      <option value="Chico">Chico</option>
+                      <option value="Celiaco">Celiaco</option>
+                      <option value="Vegetariano">Vegetariano</option>
+                      <option value="Vegano">Vegano</option>
                     </select>
                   </div>
                 </div>
