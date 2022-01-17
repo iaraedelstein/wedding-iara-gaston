@@ -114,8 +114,8 @@ body {
   height: 100%;
   @include transition(0.5s);
   .offcanvas & {
-    overflow: hidden;
-    position: absolute;
+    //overflow: hidden;
+    //position: absolute;
 
     &:after {
       @include transition(2s);

@@ -217,6 +217,7 @@ function alert_markup(alert_type, msg) {
 }
 $('#rsvp-form').on('submit', function (e) {
   e.preventDefault();
+  $('.wedding-loader').fadeIn('slow');
   var body = $(this).serialize();
   $.post(
     'https://script.google.com/macros/s/AKfycbxUvFtjquKz5nU7L0BQtv5G5bDMKsKQDKKQTXVimx6ETMLKzmApJSc3z7j2exESWs1d/exec',
@@ -224,6 +225,7 @@ $('#rsvp-form').on('submit', function (e) {
   )
     .done(function (data) {
       $('#alert-wrapper').html('');
+      $('.wedding-loader').fadeOut('slow');
       $('#rsvp-modal').modal('show');
       $('#rsvp-form').trigger('reset');
     })
