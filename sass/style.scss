@@ -114,8 +114,8 @@ body {
   height: 100%;
   @include transition(0.5s);
   .offcanvas & {
-    //overflow: hidden;
-    //position: absolute;
+    overflow: hidden;
+    position: absolute;
 
     &:after {
       @include transition(2s);
@@ -196,8 +196,7 @@ figure {
     padding: 5px 10px;
     color: $brand-white;
   }
-  .menu-1,
-  .menu-2 {
+  .menu-1 {
     @media screen and (max-width: $screen-sm) {
       display: none;
     }
