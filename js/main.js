@@ -140,9 +140,9 @@
   };
 
   $(function () {
-    mobileMenuOutsideClick();
+    //mobileMenuOutsideClick();
     parallax();
-    offcanvasMenu();
+    //offcanvasMenu();
     burgerMenu();
     contentWayPoint();
     goToTop();
