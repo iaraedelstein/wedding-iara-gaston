@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #f14e95;
+  color: #deb267;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f14e95;
+  color: #deb267;
   outline: none;
   text-decoration: none;
 }
@@ -77,17 +77,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f14e95;
+  background: #deb267;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f14e95;
+  background: #deb267;
 }
 
 ::selection {
   color: #fff;
-  background: #f14e95;
+  background: #deb267;
 }
 
 .counter {
@@ -206,7 +206,7 @@ figure {
   color: #fff;
 }
 .wedding-nav ul li.btn-cta a {
-  color: #f14e95;
+  color: #deb267;
 }
 .wedding-nav ul li.btn-cta a span {
   background: #fff;
@@ -780,7 +780,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f14e95;
+  color: #deb267;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -799,7 +799,7 @@ figure {
   position: relative;
 }
 .wedding-contact-info ul li:before {
-  color: #f14e95;
+  color: #deb267;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -892,7 +892,7 @@ form label {
 .wedding-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff;
-  color: #f14e95;
+  color: #deb267;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -955,7 +955,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: rgba(222, 178, 103, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1062,7 +1062,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #f14e95;
+  color: #deb267;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1085,7 +1085,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #f14e95;
+  color: #deb267;
   font-size: 30px;
 }
 .couple-half .groom,
@@ -1183,7 +1183,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #f14e95;
+  color: #deb267;
 }
 .feature-center p,
 .feature-center h3 {
@@ -1206,7 +1206,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #f14e95;
+  color: #deb267;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1241,7 +1241,7 @@ form label {
   display: block;
 }
 #wedding-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #f14e95;
+  color: #deb267;
   font-weight: 300;
 }
 #wedding-testimonial .wrap-testimony .testimony-slide figure {
@@ -1333,7 +1333,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #f14e95;
+  color: #deb267;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1399,7 +1399,7 @@ form label {
 #rsvp .btn {
   height: 54px;
   border: none !important;
-  background: #f14e95;
+  background: #deb267;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1682,21 +1682,21 @@ form label {
 }
 
 .btn-primary {
-  background: #f14e95;
+  background: #deb267;
   color: #fff;
-  border: 2px solid #f14e95;
+  border: 2px solid #deb267;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #e3bd7c !important;
+  border-color: #e3bd7c !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #f14e95;
-  border: 2px solid #f14e95;
+  color: #deb267;
+  border: 2px solid #deb267;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #f14e95;
+  background: #deb267;
   color: #fff;
 }
 
@@ -1831,7 +1831,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #f14e95;
+  border-color: #deb267;
 }
 
 .row-pb-md {
